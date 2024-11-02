@@ -1,7 +1,7 @@
 import { Plus } from "lucide-react"
 import { useState } from "react"
-import { NewComment } from "../../../entities/comment/model/types"
-import { Post } from "../../../entities/post/model/types"
+import { NewComment } from "../../../entities/comment"
+import { Post } from "../../../entities/post"
 import { CommentAddButton } from "../../../features/comment"
 import {
   Button,

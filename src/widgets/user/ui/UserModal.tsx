@@ -1,6 +1,5 @@
 import { DialogProps } from "@radix-ui/react-dialog"
-import { useUserQuery } from "../../../entities/user"
-import { UserDTO } from "../../../entities/user/model/types"
+import { type UserDTO, useUserQuery } from "../../../entities/user"
 import {
   Dialog,
   DialogContent,

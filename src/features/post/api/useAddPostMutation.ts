@@ -1,9 +1,11 @@
 import { useMutation } from "@tanstack/react-query"
-import { postQueryKeys } from "../../../entities/post/api/post.queries"
-import { postApi } from "../../../entities/post/api/postApi"
-import { useAttachAuthorToPost } from "../../../entities/post/model/attachAuthorToPost"
-import { updatePostsList } from "../../../entities/post/model/store"
-import { PostsResponse } from "../../../entities/post/model/types"
+import {
+  postApi,
+  postQueryKeys,
+  type PostsResponse,
+  updatePostsList,
+  useAttachAuthorToPost,
+} from "../../../entities/post"
 import { queryClient } from "../../../shared/api"
 
 /** 게시물 추가 */

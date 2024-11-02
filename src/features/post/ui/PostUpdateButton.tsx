@@ -1,4 +1,4 @@
-import { Post } from "../../../entities/post/model/types"
+import { Post } from "../../../entities/post"
 import { Button } from "../../../shared/ui"
 import { useUpdatePostMutation } from "../api/useUpdatePostMutation"
 

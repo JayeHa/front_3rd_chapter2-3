@@ -1,6 +1,8 @@
 import { QueryKey } from "@tanstack/react-query"
-import { commentQueryKeys } from "../../../entities/comment/api/comment.queries"
-import { FetchCommentResponse } from "../../../entities/comment/model/types"
+import {
+  commentQueryKeys,
+  type FetchCommentResponse,
+} from "../../../entities/comment"
 import { queryClient } from "../../../shared/api"
 
 /**

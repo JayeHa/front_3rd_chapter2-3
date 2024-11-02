@@ -2,7 +2,7 @@ import { useState } from "react"
 import { usePostQueryParams, usePostsQuery } from "../entities/post"
 import { Card, CardContent, CardHeader, CardTitle } from "../shared/ui"
 import { PostAddDialogButton, PostFilterBar, PostTable } from "../widgets/post"
-import { Pagination } from "../widgets/ui/Pagination"
+import { Pagination } from "../widgets/ui"
 
 const PostsManager = () => {
   const {

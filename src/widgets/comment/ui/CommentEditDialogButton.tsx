@@ -1,6 +1,6 @@
 import { Edit2 } from "lucide-react"
 import { useState } from "react"
-import { Comment } from "../../../entities/comment/model/types"
+import { Comment } from "../../../entities/comment"
 import { CommentUpdateButton } from "../../../features/comment"
 import {
   Button,

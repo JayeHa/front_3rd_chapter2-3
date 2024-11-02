@@ -1,5 +1,5 @@
 import { Trash2 } from "lucide-react"
-import { Post } from "../../../entities/post/model/types"
+import { Post } from "../../../entities/post"
 import { Button } from "../../../shared/ui"
 import { useDeletePostMutation } from "../api/useDeletePostMutation"
 

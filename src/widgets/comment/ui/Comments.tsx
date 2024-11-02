@@ -1,6 +1,5 @@
-import { useCommentsQuery } from "../../../entities/comment/api/useCommentsQuery"
-import { usePostQueryParams } from "../../../entities/post"
-import { Post } from "../../../entities/post/model/types"
+import { useCommentsQuery } from "../../../entities/comment"
+import { type Post, usePostQueryParams } from "../../../entities/post"
 import {
   CommentDeleteButton,
   CommentLikeButton,

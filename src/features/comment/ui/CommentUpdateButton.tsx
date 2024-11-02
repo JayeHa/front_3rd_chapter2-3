@@ -1,4 +1,4 @@
-import { Comment } from "../../../entities/comment/model/types"
+import { Comment } from "../../../entities/comment"
 import { Button } from "../../../shared/ui"
 import { useUpdateCommentMutation } from "../api/useUpdateCommentMutation"
 

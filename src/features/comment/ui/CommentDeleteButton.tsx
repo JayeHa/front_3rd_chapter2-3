@@ -1,5 +1,5 @@
 import { Trash2 } from "lucide-react"
-import { Comment } from "../../../entities/comment/model/types"
+import { Comment } from "../../../entities/comment"
 import { Button } from "../../../shared/ui"
 import { useDeleteComment } from "../api/useDeleteComment"
 

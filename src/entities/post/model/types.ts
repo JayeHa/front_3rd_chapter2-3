@@ -1,4 +1,4 @@
-import { UserDTO } from "../../user/model/types"
+import { UserDTO } from "../../user"
 
 export type PostDTO = {
   id: number
